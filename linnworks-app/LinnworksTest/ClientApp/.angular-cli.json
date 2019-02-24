@@ -53,6 +53,13 @@
       "config": "./karma.conf.js"
     }
   },
+
+  "integration": {
+    "builder": "@angular-devkit/build-angular:karma",
+    "options": {
+      "main": "src/integration.ts"
+    }
+  },
   "defaults": {
     "styleExt": "css",
     "component": {},

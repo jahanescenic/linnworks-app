@@ -31,6 +31,7 @@ import { AddCategoryComponent } from './add-category/add-category.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    RouterModule,
     RouterModule.forRoot([
       { path: 'login', component: LoginComponent },
       { path: 'logout', component: LogoutComponent },
